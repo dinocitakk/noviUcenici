@@ -1,0 +1,40 @@
+<!-- naslov i slika "pečena teletina " trebaju biti u div elementu. 
+    Na div elemet se treba primjeniti klasa margine.
+    Margine se treba nalaziti u style.css
+    Klasa treba pomaknuti div od lijevo i od gore za 50px
+    slika se nalazi u mapi images i treba biti široka 500 -->
+
+Pečena teletina
+slika
+
+<!-- Naslov sastojci i lista sastojaka trebaju biti u zajedničkom div elementu
+Boja pozadine naslova i satojaka treba biti aqua
+Boja treba biti definirana kroz inline način dodavanja css-a i desnuj marginu 50% -->
+
+Sastojci:
+
+1,5 kg telećih rebra
+začini po želji (npr. vegeta, sol, biber, majčina dušica, đumbir u prahu, mljevena crvena paprika...)
+1,5 kg krumpira
+mrkva, korijen celera, veća glavica crvenog luka
+maslinovo ulje
+1 dcl bijelog vina
+
+<!-- Nakon div elementa treba doći crta preko cijelog ekrana -->
+
+<!-- prva riječ u listi pripreme treba imati pozadinsku boju crvenu
+to napraviti kroz span element u datoteci style.css -->
+Priprema:
+
+Začinite meso po vlastitom ukusu (ja sam stavila malo vegete, sol, biber, majčinu dušicu, đumbir u prahu i mljevenu crvenu papriku), dobro utrljajte u meso i pustite pola sata da upije začine.
+U međuvremenu, ogulite krumpir i veću glavicu crvenog luka i izrežite ih na veće komade. Ogulite i izrežite mrkvu i korijen celera na štapiće pa sve začinite po želji (vegeta, sol, ružmarin...). Polijte maslinovim uljem i 1 dcl bijelog vina te dobro izmiješajte.
+Istodobno u pleh stavite meso i krumpire. Pecite 15-ak minuta u zagrijanoj pećnici na 200 °C, zatim smanjite na 180 °C i pecite još dobrih sat vremena (ovisno o pećnici).
+
+    <!-- Na kraju liste pripreme dodati ravnu crtu -->
+
+<!-- Ostatak sadržaja staviti u div i primjeniti klasu margine
+Dodati sliku Posluživanje.jpg
+Postaviti širinu na 500 i 
+Postaviti alternativni tekst = Izvrsno pripremljeno" -->
+Posluživanje:
+Poslužite toplo uz umak od hrena i sezonsku salatu.
