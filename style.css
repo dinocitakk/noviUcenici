@@ -1,0 +1,45 @@
+
+.margine {
+    margin-left: 50px;  
+    margin-top: 50px;   
+   
+}
+
+
+.slika-okvir {
+    display: inline-block; 
+    background-color: yellow;  
+    padding: 25px;
+}
+
+
+.unutarnji-okvir {
+    background-color: white;  
+    padding: 10px;  
+}
+
+
+.unutarnji-okvir img {
+    display: block;  
+    width: 500px;  
+}
+.aqua-div {
+    background-color: aqua;
+    margin-right: 50%;
+}
+
+.margina {
+    margin: 20px; 
+}
+
+hr {
+    border: none;       
+    height: 1px;       
+    background-color: black; 
+    width: 100%;      
+}
+.margins {
+    margin: 20px; 
+    
+}
+

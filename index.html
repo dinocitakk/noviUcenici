@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- naslov i slika "pečena teletina " trebaju biti u div elementu.
+    Na div elemet se treba primjeniti klasa margine.
+    Margine se treba nalaziti u style.css
+    Klasa treba pomaknuti div od lijevo i od gore za 50px
+    slika se nalazi u mapi images i treba biti široka 500 -->
+    <div class="margine">
+        <h1>Pečena teletina</h1>
+        <div class="slika-okvir">
+            <div class="unutarnji-okvir">
+                <img src="images/Pečena teletina.jpeg" alt="Pečena teletina">
+            </div>
+        </div>
+    </div>
+      
+    
+<!-- Naslov sastojci i lista sastojaka trebaju biti u zajedničkom div elementu
+Boja pozadine naslova i satojaka treba biti aqua
+Boja treba biti definirana kroz inline način dodavanja css-a i desnuj marginu 50% -->
+<div style="background-color: aqua; margin-right: 50%; padding: 10px;">
+
+    <h2>Sastojci</h2>
+    <ul>
+        <li>1,5 kg telećih rebara</li>
+        <li>Začini po želji (npr. vegeta, sol, biber, majčina dušica, đumbir u prahu, mljevena crvena paprika...)</li>
+        <li>1,5 kg krumpira</li>
+        <li>Mrkva, korijen celera, veća glavica crvenog luka</li>
+        <li>Maslinovo ulje</li>
+        <li>1 dcl bijelog vina</li>
+    </ul>
+</div>
+<hr> <!-- Crta preko cijelog ekrana -->
+
+<div class="margina">
+    <h2>Priprema</h2>
+    <ol>
+        <li><span style="background-color: red; color: hwb(0 1% 99%);">Začinite</span> meso po vlastitom ukusu (ja sam stavila malo vegete, sol, biber, majčinu dušicu, đumbir u prahu i mljevenu crvenu papriku), dobro utrljajte u meso i pustite pola sata da upije začine.</li>
+        <li><span style="background-color: red; color: #050505;">U međuvremenu</span> ogulite krumpir i veću glavicu crvenog luka i izrežite ih na veće komade. Ogulite i izrežite mrkvu i korijen celera na štapiće pa sve začinite po želji (vegeta, sol, ružmarin...). Polijte maslinovim uljem i 1 dcl bijelog vina te dobro izmiješajte.</li>
+        <li><span style="background-color: red; color: #000000;">Istodobno</span> u pleh stavite meso i krumpire. Pecite 15-ak minuta u zagrijanoj pećnici na 200 °C, zatim smanjite na 180 °C i pecite još dobrih sat vremena (ovisno o pećnici).</li>
+    </ol>
+</div>
+
+<hr> <!-- Crta preko cijelog ekrana -->
+
+<!-- Nakon div elementa treba doći crta preko cijelog ekrana -->
+
+<!-- prva riječ u listi pripreme treba imati pozadinsku boju crvenu
+to napraviti kroz span element u datoteci style.css -->
+
+
+    <!-- Na kraju liste pripreme dodati ravnu crtu -->
+
+<!-- Ostatak sadržaja staviti u div i primjeniti klasu margine
+Dodati sliku Posluživanje.jpg
+Postaviti širinu na 500 i
+Postaviti alternativni tekst = Izvrsno pripremljeno" -->
+<div class="margins">
+    <h2>Posluživanje</h2>
+    <p>Poslužite toplo uz umak od hrena i sezonsku salatu.</p>
+    <img src="Posluzivanje.jpg" width="500" alt="Izvrsno pripremljeno">
+</div>
+
+
+</body>
+</html>
